@@ -1,3 +1,24 @@
+# Guitar Sales Web Management Developed with React + TypesScript + Vite
+
+This app was made with react and the next structure:
+
+- BootStrap was used to styled all the app, with a plain CSS file.
+- Creation of functional components.
+- Managing of props. 
+- Using hooks such as useEffect, useMemo, useState.
+- Custom hooks to manage the cart features.
+- Using types, inheritance between interfaces.
+- Configuration of local storage.
+- TypeScript Implemented.
+
+Published website: https://661dfcf95b6907864785da25--melodious-kangaroo-4b143b.netlify.app/
+
+# Steps to running
+
+- Please install nodeJS.
+- run 'npm install'
+- run 'npm run dev' and open the app in the browser.
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
