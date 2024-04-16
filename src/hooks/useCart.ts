@@ -18,7 +18,6 @@ export const useCart = () => {
   }, [cart]);
 
   function addToCart(item: Guitar) {
-    console.log("the item", item);
     const itemExists = cart.findIndex((guitar) => guitar.id === item.id);
 
     if (itemExists >= 0) {
@@ -27,7 +26,7 @@ export const useCart = () => {
       updatedCart[itemExists].quantity++;
       setCart(updatedCart);
     } else {
-      const newItem: CarItem = { ...item, quantity: 2 };
+      const newItem: CarItem = { ...item, quantity: 1 };
       setCart([...cart, newItem]);
     }
   }
