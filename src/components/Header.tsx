@@ -26,7 +26,7 @@ export default function Header({
           <div className="col-8 col-md-3">
             <a href="index.html">
               <img
-                className="img-fluid"
+                className="img-header"
                 src="/img/logo.svg"
                 alt="imagen logo"
               />

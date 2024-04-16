@@ -312,6 +312,10 @@ button:not(:disabled),
   }
 }
 
+.img-header {
+  max-width: 50%;
+}
+
 .img-fluid {
   max-width: 100%;
   height: auto;
